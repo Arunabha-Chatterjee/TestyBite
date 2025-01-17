@@ -11,7 +11,6 @@ if (!cart || cart.length === 0) {
         }];
 }
 
-
 function saveToStorage() {
     localStorage.setItem("cart", JSON.stringify(cart));
 }
